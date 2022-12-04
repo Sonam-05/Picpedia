@@ -1,0 +1,49 @@
+.photoHeading {
+    width: 88%;
+    margin: auto;
+    color: #454545;
+    letter-spacing: 0.2vw;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.photoHeading::after {
+    content: '';
+    width: 150px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.allPhotosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 2.5vh;
+    padding: 8px 15px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(170, 169, 169, 0.705);
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+}

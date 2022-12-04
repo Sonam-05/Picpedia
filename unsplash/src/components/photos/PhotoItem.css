@@ -1,0 +1,50 @@
+.photoContainer {
+    height: 500px;
+    width: 350px;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.photoContainer:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    border: 1px solid gray;
+}
+
+.details {
+    display: flex;
+}
+
+.details {
+    background-color: rgba(129, 129, 129, 0.737);
+    height: fit-content;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.userImage img {
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.userLikes {
+    background-color: rgba(129, 129, 129, 0.737);
+    height: fit-content;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}

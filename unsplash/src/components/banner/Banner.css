@@ -1,0 +1,61 @@
+.bannerImage{
+    height: 75vh;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.bannerImage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(1);
+}
+
+.bannerHeading{
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #333;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bannerHeading::after{
+    content: '';
+    width: 150px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;margin: auto;
+}
+
+.bannerHeading span{
+    font-variant: small-caps;
+}
+
+.bannerImage p{
+    letter-spacing: 1.5px;   
+    text-align: center;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+}
+
+.bannerText{
+    width: 90%;
+    max-width: 500px;
+    height: fit-content;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #e1e0e09f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
